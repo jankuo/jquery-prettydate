@@ -7,11 +7,11 @@ $.extend($.prettyDate.messages, {
 	hours: $.prettyDate.template('{0}小时前'),
 	yesterday: '昨天',
 	dayBeforeYesterday: '前天',
-	days: '{0}天前',
+	days: $.prettyDate.template('{0}天前'),
 	week: '1周前',
 	weeks: '{0}周前',
 	month: '1个月前',
-	months: '{0}个月前',
+	months: $.prettyDate.template('{0}个月前'),
 	year: '1年前',
 	years: $.prettyDate.template('{0}年前')
 });
